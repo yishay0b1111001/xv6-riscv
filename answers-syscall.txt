@@ -1,0 +1,6 @@
+1. usertrap
+2. 7: SYS_exec
+3. 0x22, user space
+4. lw	a3,0(zero).    a3
+5. this adress is meant to be unused, which cause a problem
+6. pid: 1, name: initcode
